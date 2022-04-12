@@ -13,11 +13,13 @@ Output-Dari-HalamanDepan-RentalBuku.png
  ouput dari form validasi
  Output-Isi-Pustaka-Buku.png
 
-Output-Isi-Pustaka-Role.png
+Output_database_Pustaka-Role.png
 
-Output-Isi-Pustaka-User.png
+Output_database_Pustaka_User.png
 
-Output-Isi-Pustaka-Kategori.png
+Output_database_Pustaka_Kategori.png
+
+output_database_pustaka_buku
 
 File Yang Ditambahkan Sebagai Berikut :
 
