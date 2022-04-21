@@ -21,6 +21,10 @@ Output_database_Pustaka_Kategori.png
 
 output_database_pustaka_buku
 
+ouput_form_data_siswa.JPG
+
+ouput_forn_validation_data_siswa
+
 File Yang Ditambahkan Sebagai Berikut :
 
 pustaka-booking/Application/Controller = Matakuliah.php, Web.php
@@ -32,3 +36,8 @@ pustaka-booking/assets/css = stylebuku.css
 pustaka-booking/Application/config = autoload.php, database.php
 
 pustaka-booking/Application/Models = ModelUser.php, ModelBuku.php
+
+pustaka-booking/Aplication/Controller = formsiswa.php
+
+pustaka-booking/Aplication/Views/ =view-data-siswa.php
+view-form-siswa.php
