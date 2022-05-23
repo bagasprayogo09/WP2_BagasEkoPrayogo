@@ -32,7 +32,7 @@
         ]);
         $this->form_validation->set_rules('jenis_kelamin', 'jenis_kelamin','required|min_length[2]', [
             'required' => "jenis_kelamin Harus Diisi!",
-            'min_length' => "jenis kelamin belom di isi!"
+            'min_length' => "jenis kelam!",
         ]);        
             
             if ($this->form_validation->run () == FALSE) {
@@ -47,7 +47,7 @@
                 $alamat = $this->input->post('alamat', TRUE);
                 $jenis_kelamin =  $this->input->post('jenis_kelamin', TRUE);
                 $agama =  $this->input->post('agama', TRUE);
-            $data = [
+            $siswa = [
                 'nama'=> $nama,
                 'nis' => $nis,
                 'kelas'=> $kelas,
@@ -58,7 +58,7 @@
                 'agama'=>$agama
             ];
 
-            $this->load->view('view-data-siswa', $data);
+            $this->load->view('view-data-siswa', $siswa);
         }
     }
 }

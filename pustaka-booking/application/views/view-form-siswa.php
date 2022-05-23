@@ -47,7 +47,7 @@ method="post">
                 <th>Tanggal Lahir</th>
                 <th>:</th>
                 <td>
-                <input type="date" name="tanggal_lahir" placeholder="Input Tanggal Lahir">
+                <input type="text" name="tanggal_lahir" placeholder="Input Tanggal Lahir">
                         <?= form_error('tanggal_lahir', '<small style="color:red">', '</small>'); ?>
                 </td>
             </tr>
@@ -64,7 +64,7 @@ method="post">
                 <th>Alamat</th>
                 <th>:</th>s
                 <td>
-                <textarea name="alamat" id="alamat" cols="30" rows="10" placeholder="Input Alamat"></textarea>
+                <input type="text"name="alamat" placeholder="Input Alamat"></input>
                         <?= form_error('alamat', '<small style="color:red">', '</small>'); ?>
                 </td>
             <tr>
